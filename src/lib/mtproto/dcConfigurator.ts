@@ -47,7 +47,7 @@ export function constructTelegramWebSocketUrl(dcId: DcId, connectionType: Connec
 
   const suffix = getTelegramConnectionSuffix(connectionType);
   const path = connectionType !== 'client' ? 'apiws' + TEST_SUFFIX + (premium ? PREMIUM_SUFFIX : '') : ('apiws' + TEST_SUFFIX);
-  const chosenServer = `wss://web.teamgram.net/${path}`;
+  const chosenServer = `wss://yomi-web.github.io/${path}`;
 
   return chosenServer;
 }
@@ -103,7 +103,7 @@ export class DcConfigurator {
       const suffix = getTelegramConnectionSuffix(connectionType);
       const subdomain = this.sslSubdomains[dcId - 1] + suffix;
       const path = Modes.test ? 'apiw_test1' : 'apiw1';
-      chosenServer = 'https://.web.teamgram.net/' + path;
+      chosenServer = 'https://.yomi-web.github.io/' + path;
     } else {
       for(const dcOption of this.dcOptions) {
         if(dcOption.id === dcId) {

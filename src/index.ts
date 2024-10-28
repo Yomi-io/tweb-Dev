@@ -62,7 +62,7 @@ IMAGE_MIME_TYPES_SUPPORTED_PROMISE.then((mimeTypes) => {
       const version = localStorage.getItem('kz_version');
       if(version === 'Z' || nextRandomUint(8) > 127) {
         localStorage.setItem('kz_version', 'Z');
-        location.href = 'https://web.teamgram.net/a/';
+        location.href = 'https://yomi-web.github.io/a/';
       } else {
         localStorage.setItem('kz_version', 'K');
       }
