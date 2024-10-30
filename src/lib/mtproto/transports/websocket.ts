@@ -27,7 +27,7 @@ export default class Socket extends EventListenerBase<{
     super();
 
     if(TEST_NO_WEBSOCKET) {
-      this.url = url = 'wss://localhost:8081';
+      this.url = url = 'wss://localhost:11443';
     }
 
     let logTypes = LogTypes.Error | LogTypes.Log;
