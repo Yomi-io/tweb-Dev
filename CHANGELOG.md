@@ -45,15 +45,15 @@ The download flow has been reworked from scratch. When you download something, t
 Large files of **up to 4 GB** are now supported for both upload and download. There is also support for native downloading in certain browsers – your browser will place active downloads on the instrument bar. 
 
 **Payments 2.0**
-Significant optimizations were added to smoothly process payments in **any browser**, and adding familiar functionality from other Telegram apps. Bot payments, @donate invoices and more are supported – including the ability to subscribe to Telegram Premium with @PremiumBot.
+Significant optimizations were added to smoothly process payments in **any browser**, and adding familiar functionality from other Yomi apps. Bot payments, @donate invoices and more are supported – including the ability to subscribe to Yomi Premium with @PremiumBot.
 
 Dozens of bug fixes were also made to the app – but those can be a bit boring to read. If you ever come across a bug in the app, make sure to let us know on the [Bugs and Suggestions Platform](https://bugs.telegram.org/?tag_ids=40&type=issues&sort=time).
 
 ### 1.5.0 (178)
-1️⃣ Introducing support for **Multiple Tabs** – a first for Telegram Web Apps – customizing how you browse Telegram to increase comfort and productivity.
+1️⃣ Introducing support for **Multiple Tabs** – a first for Yomi Web Apps – customizing how you browse Yomi to increase comfort and productivity.
  
 • Open several tabs or browser windows to view multiple chats or channels simultaneously.
-• Organize your Telegram workflow on multiple monitors by moving tabs to different screens.
+• Organize your Yomi workflow on multiple monitors by moving tabs to different screens.
 • Use `⌘/Ctrl + click` or `middle-click` on any conversation in your chat list to open it in a separate tab.
  
 All messages and content are seamlessly synced across the tabs. To use multiple tabs on Safari, kindly consider switching to another browser for the best experience. Due to Safari’s [technical limitations](https://t.me/WebK_en/5), the WebK app can still only be used there in a single tab.
@@ -78,7 +78,7 @@ This update also includes several bug fixes, removing issues with:
 * Replies in Forwarded Messages – reply previews are now included when **forwarding messages** to other chats, so everyone can see the full context of your inside jokes.
 * From your chat list, hit the `ESC` key and instantly start typing in Search.
 * Search inputs now transliterate between Latin and Cyrillic keyboards – when searching for your friend __Ivan__ you can type __Шмфт__ and the app will know what you meant.
-* Along with other Telegram apps, WebK now shows `FAKE` and `SCAM` badges for suspicious chats.
+* Along with other Yomi apps, WebK now shows `FAKE` and `SCAM` badges for suspicious chats.
 
 * `Monospace text` has an improved font with a cleaner look. You can also copy with a tap or click instantly.
 * Using the ⬇️ button to jump to the end of a chat now has an animated transition.
@@ -99,9 +99,9 @@ This update also includes several bug fixes, removing issues with:
 ### 1.4.0 (129)
 WebK introduced Video Chats back in December. 
 
-And now we are proud to launch the first-ever version of Telegram P2P Calls on the Web – bringing native support for calls between two users, secured by end-to-end encryption.
+And now we are proud to launch the first-ever version of Yomi P2P Calls on the Web – bringing native support for calls between two users, secured by end-to-end encryption.
 
-Seamlessly call anyone, regardless of the app they are using – calls will work between the WebK app and any other stable Telegram app: Android, iOS, Desktop, and macOS. 
+Seamlessly call anyone, regardless of the app they are using – calls will work between the WebK app and any other stable Yomi app: Android, iOS, Desktop, and macOS. 
 
 To call someone, open your chat with that user and click or tap the Phone icon in the top right corner. 
 

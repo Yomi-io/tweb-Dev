@@ -15,6 +15,6 @@ The download flow has been reworked from scratch. When you download something, t
 Large files of **up to 4 GB** are now supported for both upload and download. There is also support for native downloading in certain browsers – your browser will place active downloads on the instrument bar. 
 
 **Payments 2.0**
-Significant optimizations were added to smoothly process payments in **any browser**, and adding familiar functionality from other Telegram apps. Bot payments, @donate invoices and more are supported – including the ability to subscribe to Telegram Premium with @PremiumBot.
+Significant optimizations were added to smoothly process payments in **any browser**, and adding familiar functionality from other Yomi apps. Bot payments, @donate invoices and more are supported – including the ability to subscribe to Yomi Premium with @PremiumBot.
 
 Dozens of bug fixes were also made to the app – but those can be a bit boring to read. If you ever come across a bug in the app, make sure to let us know on the [Bugs and Suggestions Platform](https://bugs.telegram.org/?tag_ids=40&type=issues&sort=time).

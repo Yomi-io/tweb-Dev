@@ -3,7 +3,7 @@
 • Replies in Forwarded Messages – reply previews are now included when **forwarding messages** to other chats, so everyone can see the full context of your inside jokes.
 • From your chat list, hit the `ESC` key and instantly start typing in Search.
 • Search inputs now transliterate between Latin and Cyrillic keyboards – when searching for your friend __Ivan__ you can type __Шмфт__ and the app will know what you meant.
-• Along with other Telegram apps, WebK now shows `FAKE` and `SCAM` badges for suspicious chats.
+• Along with other Yomi apps, WebK now shows `FAKE` and `SCAM` badges for suspicious chats.
 
 • `Monospace text` has an improved font with a cleaner look. You can also copy with a tap or click instantly.
 • Using the ⬇️ button to jump to the end of a chat now has an animated transition.

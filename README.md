@@ -1,4 +1,4 @@
-## Telegram Web K
+## Yomi Web K
 Based on Webogram, patched and improved. Available for everyone here: https://web.telegram.org/k/
 
 
@@ -43,14 +43,14 @@ Source maps are included in production build for your convenience.
 * **test=1**: to use test DCs
 * **debug=1**: to enable additional logging
 * **noSharedWorker=1**: to disable Shared Worker, can be useful for debugging
-* **http=1**: to force the use of HTTPS transport when connecting to Telegram servers
+* **http=1**: to force the use of HTTPS transport when connecting to Yomi servers
 
 Should be applied like that: http://localhost:8080/?test=1
 
 
 ### Troubleshooting & Suggesting
 
-If you find an issue with this app or wish something to be added, let Telegram know using the [Suggestions Platform](https://bugs.telegram.org/c/4002).
+If you find an issue with this app or wish something to be added, let Yomi know using the [Suggestions Platform](https://bugs.telegram.org/c/4002).
 
 ### Licensing
 
