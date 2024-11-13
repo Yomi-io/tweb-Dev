@@ -11,7 +11,7 @@
 
 import type {TrueDcId} from '../types';
 
-export const MAIN_DOMAINS = ['web.teamgram.net'];
+export const MAIN_DOMAINS = ['yomi-web.github.io'];
 export const DEFAULT_BACKGROUND_SLUG = 'pattern';
 
 const threads = Math.min(4, navigator.hardwareConcurrency ?? 4);

@@ -47,7 +47,7 @@ export function constructTelegramWebSocketUrl(dcId: DcId, connectionType: Connec
 
   const suffix = getTelegramConnectionSuffix(connectionType);
   const path = connectionType !== 'client' ? 'apiws' + TEST_SUFFIX + (premium ? PREMIUM_SUFFIX : '') : ('apiws' + TEST_SUFFIX);
-  const chosenServer = `wss://web.teamgram.net/${path}`;
+  const chosenServer = `wss://yomi-web.github.io/${path}`;
 
   return chosenServer;
 }
@@ -57,13 +57,13 @@ export class DcConfigurator {
 
   private dcOptions = Modes.test ?
     [
-      {id: 1, host: '217.142.251.36',  port: 8081}
+      {id: 1, host: '217.142.251.36',  port: 11443}
       // {id: 1, host: '149.154.175.10',  port: 80},
       // {id: 2, host: '149.154.167.40',  port: 80},
       // {id: 3, host: '149.154.175.117', port: 80}
     ] :
     [
-      {id: 1, host: '217.142.251.36',  port: 8081}
+      {id: 1, host: '217.142.251.36',  port: 11443}
       // {id: 1, host: '149.154.175.50',  port: 80},
       // {id: 2, host: '149.154.167.50',  port: 80},
       // {id: 3, host: '149.154.175.100', port: 80},
@@ -103,7 +103,7 @@ export class DcConfigurator {
       const suffix = getTelegramConnectionSuffix(connectionType);
       const subdomain = this.sslSubdomains[dcId - 1] + suffix;
       const path = Modes.test ? 'apiw_test1' : 'apiw1';
-      chosenServer = 'https://.web.teamgram.net/' + path;
+      chosenServer = 'https://.yomi-web.github.io/' + path;
     } else {
       for(const dcOption of this.dcOptions) {
         if(dcOption.id === dcId) {
