@@ -16,8 +16,8 @@ const handlebarsPlugin = handlebars({
   context: {
     title: 'Telegram Web',
     description: 'Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.',
-    url: 'https://web.teamgram.net/k/',
-    origin: 'https://web.teamgram.net/'
+    url: 'https://yomi-web.github.io/',
+    origin: 'https://yomi-web.github.io/'
   }
 });
 
